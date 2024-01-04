@@ -538,7 +538,7 @@ html{
     text-align: center;
     padding: 20px 0;
 }
-.contacto input{
+.contacto .input{
     display: flex;
 }
 .contacto .contenido-seccion{
@@ -546,7 +546,7 @@ html{
     padding: 10px;
     position: relative;
 }
-.contacto input, message {
+.contacto .input, message {
     display: block;
     width: 100%;
     padding: 18px;
@@ -556,7 +556,7 @@ html{
     color: #fff;
     font-size: 18px;
 }
-.contacto input btn{
+.contacto .input .btn{
     cursor: pointer;
     background-color: transparent;
     border: 2px solid #fff;
@@ -569,7 +569,7 @@ html{
     position: relative;
     z-index: 10;
 }
-.contacto input btn.overlay{
+.contacto .input .btn.overlay{
     position: absolute;
     top: 0;
     left: 0;
@@ -579,7 +579,7 @@ html{
     z-index: -1;
     transition: 1s;
 }
-.contacto input btn:hover .overlay{
+.contacto .input btn:hover .overlay{
     width: 100%;
 }
 .contacto .col img{
