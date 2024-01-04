@@ -546,7 +546,7 @@ html{
     padding: 10px;
     position: relative;
 }
-.contacto input, message {
+.contacto input, message{
     display: block;
     width: 100%;
     padding: 18px;
