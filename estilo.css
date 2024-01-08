@@ -9,6 +9,21 @@ html{
     /* me permite deslizar cuando hago clic en los links del menu */
     scroll-behavior: smooth;
 }
+ #back-top {
+    margin-top: 105vh;
+    position: sticky;
+    bottom: 32px;
+      left: 32px;
+  }
+  #back-top {
+	padding: 10px;
+  background: white;
+	border-radius: 1000px;
+	box-shadow: 0 0 10px #00000035;
+	background: rgb(30, 158, 105);
+	color: #fff;
+	text-decoration: none;
+}
 /* MENU */
 .contenedor-header{
     background: #1e2326;
